@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Planet Details</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div id="planet-info">
+    <h1 id="planet-name"></h1>
+    <p id="planet-description"><strong>Description:</strong></p>
+    <img id="planet-image" src="" alt="Planet Image" width="300" />
+    
+    <ul>
+      <li><strong>Type:</strong> <span id="planet-type"></span></li>
+      <li><strong>Distance from Sun:</strong> <span id="planet-distance"></span></li>
+      <li><strong>Radius:</strong> <span id="planet-radius"></span></li>
+      <li><strong>Mass:</strong> <span id="planet-mass"></span></li>
+      <li><strong>Surface Temp:</strong> <span id="planet-temp"></span></li>
+      <li><strong>Star System:</strong> <span id="planet-star-system"></span></li>
+      <li><strong>Weather:</strong> <span id="planet-weather"></span></li>
+
+    </ul>
+    <a href="/">← Back to list</a>
+  </div>
+  <canvas id="weather-canvas"></canvas>
+
+
+  <script src="/js/weather.js"></script>
+  <script src="/js/planet.js"></script>
+</body>
+</html>
